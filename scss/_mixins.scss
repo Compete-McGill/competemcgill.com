@@ -46,22 +46,24 @@
   }
 }
 
+$animation-speed-scale: 0.5;
+
 #c_x5F_path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: cursive 1.2s linear forwards;
-  -webkit-animation: cursive 1.2s linear forwards;
-  -moz-animation: cursive 1.2s linear forwards;
-  -o-animation: cursive 1.2s linear forwards;
+  animation: cursive 1.2s * $animation-speed-scale * $animation-speed-scale linear forwards;
+  -webkit-animation: cursive 1.2s * $animation-speed-scale * $animation-speed-scale linear forwards;
+  -moz-animation: cursive 1.2s * $animation-speed-scale * $animation-speed-scale linear forwards;
+  -o-animation: cursive 1.2s * $animation-speed-scale * $animation-speed-scale linear forwards;
 }
 
 #p_x5F_path {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
-  animation: cursive 1.2s linear forwards 0.9s;
-  -webkit-animation: cursive 1.2s linear forwards 0.9s;
-  -moz-animation: cursive 1.2s linear forwards 0.9s;
-  -o-animation: cursive 1.2s linear forwards 0.9s;
+  animation: cursive 1.2s * $animation-speed-scale * $animation-speed-scale linear forwards 0.8s * $animation-speed-scale;
+  -webkit-animation: cursive 1.2s * $animation-speed-scale * $animation-speed-scale linear forwards 0.8s * $animation-speed-scale;
+  -moz-animation: cursive 1.2s * $animation-speed-scale * $animation-speed-scale linear forwards 0.8s * $animation-speed-scale;
+  -o-animation: cursive 1.2s * $animation-speed-scale * $animation-speed-scale linear forwards 0.8s * $animation-speed-scale;
 }
 
 
@@ -91,33 +93,33 @@
 
 #left_x5F_brack_1_, #right_x5F_brack{
   opacity: 0;
-  animation: appear 1.5s linear forwards 2s;
-  -webkit-animation: appear 1.5s linear forwards 2s;
-  -moz-animation: appear 1.5s linear forwards 2s;
-  -o-animation: appear 1.5s linear forwards 2s;
+  animation: appear .5s * $animation-speed-scale linear forwards 2s * $animation-speed-scale;
+  -webkit-animation: appear .5s * $animation-speed-scale linear forwards 2s * $animation-speed-scale;
+  -moz-animation: appear .5s * $animation-speed-scale linear forwards 2s * $animation-speed-scale;
+  -o-animation: appear .5s * $animation-speed-scale linear forwards 2s * $animation-speed-scale;
 }
 
 #main_title {
   opacity: 0;
-  animation: appear 1.5s linear forwards 2.3s;
-  -webkit-animation: appear 1.5s linear forwards 2.3s;
-  -moz-animation: appear 1.5s linear forwards 2.3s;
-  -o-animation: appear 1.5s linear forwards 2.3s;
+  animation: appear 1.5s * $animation-speed-scale linear forwards 2.3s * $animation-speed-scale;
+  -webkit-animation: appear 1.5s * $animation-speed-scale linear forwards 2.3s * $animation-speed-scale;
+  -moz-animation: appear 1.5s * $animation-speed-scale linear forwards 2.3s * $animation-speed-scale;
+  -o-animation: appear 1.5s * $animation-speed-scale linear forwards 2.3s * $animation-speed-scale;
 }
 
 #main_desc {
   opacity: 0;
-  animation: appear 1.5s linear forwards 2.5s;
-  -webkit-animation: appear 1.5s linear forwards 2.5s;
-  -moz-animation: appear 1.5s linear forwards 2.5s;
-  -o-animation: appear 1.5s linear forwards 2.5s;
+  animation: appear 1.5s * $animation-speed-scale linear forwards 2.5s * $animation-speed-scale;
+  -webkit-animation: appear 1.5s * $animation-speed-scale linear forwards 2.5s * $animation-speed-scale;
+  -moz-animation: appear 1.5s * $animation-speed-scale linear forwards 2.5s * $animation-speed-scale;
+  -o-animation: appear 1.5s * $animation-speed-scale linear forwards 2.5s * $animation-speed-scale;
 }
 
 #get_started{
   opacity: 0;
-  animation: appear 1.5s linear forwards 2.7s;
-  -webkit-animation: appear 1.5s linear forwards 2.7s;
-  -moz-animation: appear 1.5s linear forwards 2.7s;
-  -o-animation: appear 1.5s linear forwards 2.7s;
+  animation: appear 1.5s * $animation-speed-scale linear forwards 2.7s * $animation-speed-scale;
+  -webkit-animation: appear 1.5s * $animation-speed-scale linear forwards 2.7s * $animation-speed-scale;
+  -moz-animation: appear 1.5s * $animation-speed-scale linear forwards 2.7s * $animation-speed-scale;
+  -o-animation: appear 1.5s * $animation-speed-scale linear forwards 2.7s * $animation-speed-scale;
 }
 
