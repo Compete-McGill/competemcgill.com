@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Grayscale v5.0.7 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
@@ -25,81 +25,6 @@
   max-height: 300px;
 }
 
-@keyframes cursive {
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes cursive {
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-#c_x5F_path {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: cursive 1.2s linear forwards;
-  -webkit-animation: cursive 1.2s linear forwards;
-  -moz-animation: cursive 1.2s linear forwards;
-  -o-animation: cursive 1.2s linear forwards;
-}
-
-#p_x5F_path {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  animation: cursive 1.2s linear forwards 0.9s;
-  -webkit-animation: cursive 1.2s linear forwards 0.9s;
-  -moz-animation: cursive 1.2s linear forwards 0.9s;
-  -o-animation: cursive 1.2s linear forwards 0.9s;
-}
-
-@keyframes appear {
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes appear {
-  100% {
-    opacity: 1;
-  }
-}
-
-#left_x5F_brack_1_,
-#right_x5F_brack {
-  opacity: 0;
-  animation: appear 1.5s linear forwards 2s;
-  -webkit-animation: appear 1.5s linear forwards 2s;
-  -moz-animation: appear 1.5s linear forwards 2s;
-  -o-animation: appear 1.5s linear forwards 2s;
-}
-
-#main_title {
-  opacity: 0;
-  animation: appear 1.5s linear forwards 2.3s;
-  -webkit-animation: appear 1.5s linear forwards 2.3s;
-  -moz-animation: appear 1.5s linear forwards 2.3s;
-  -o-animation: appear 1.5s linear forwards 2.3s;
-}
-
-#main_desc {
-  opacity: 0;
-  animation: appear 1.5s linear forwards 2.5s;
-  -webkit-animation: appear 1.5s linear forwards 2.5s;
-  -moz-animation: appear 1.5s linear forwards 2.5s;
-  -o-animation: appear 1.5s linear forwards 2.5s;
-}
-
-#get_started {
-  opacity: 0;
-  animation: appear 1.5s linear forwards 2.7s;
-  -webkit-animation: appear 1.5s linear forwards 2.7s;
-  -moz-animation: appear 1.5s linear forwards 2.7s;
-  -o-animation: appear 1.5s linear forwards 2.7s;
-}
-
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -119,7 +44,7 @@
 #mainNav .navbar-brand {
   color: #161616;
   font-weight: 700;
-  padding: 0.9rem 0;
+  padding: .9rem 0;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -128,8 +53,7 @@
   background-color: transparent;
 }
 
-#mainNav .navbar-nav .nav-item:active,
-#mainNav .navbar-nav .nav-item:focus {
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
 }
@@ -144,7 +68,7 @@
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    padding: 0.5rem 0;
+    padding: .5rem 0;
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link {
@@ -189,22 +113,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(22, 22, 22, 0.3)),
-      color-stop(75%, rgba(22, 22, 22, 0.7)),
-      to(#161616)
-    ),
-    url("../img/bg-masthead.png");
-  background: linear-gradient(
-      to bottom,
-      rgba(22, 22, 22, 0.3) 0%,
-      rgba(22, 22, 22, 0.7) 75%,
-      #161616 100%
-    ),
-    url("../img/bg-masthead.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead.png");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -212,14 +122,11 @@
 }
 
 .masthead h1 {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(
-    rgba(255, 255, 255, 0.9),
-    rgba(255, 255, 255, 0.55)
-  );
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.55));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -256,10 +163,10 @@
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 0.75rem;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-size: 80%;
   text-transform: uppercase;
-  letter-spacing: 0.15rem;
+  letter-spacing: .15rem;
   border: 0;
 }
 
@@ -282,20 +189,8 @@
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#161616),
-    color-stop(75%, rgba(22, 22, 22, 0.9)),
-    to(rgba(22, 22, 22, 0.8))
-  );
-  background: linear-gradient(
-    to bottom,
-    #161616 0%,
-    rgba(22, 22, 22, 0.9) 75%,
-    rgba(22, 22, 22, 0.8) 100%
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
 .about-section p {
@@ -328,29 +223,15 @@
   }
   .events-section .event-text hr {
     border-color: #8c1a1a;
-    border-width: 0.25rem;
+    border-width: .25rem;
     width: 30%;
   }
 }
 
 .signup-section {
   padding: 10rem 0;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(22, 22, 22, 0.1)),
-      color-stop(75%, rgba(22, 22, 22, 0.5)),
-      to(#161616)
-    ),
-    url("../img/bg-signup.png");
-  background: linear-gradient(
-      to bottom,
-      rgba(22, 22, 22, 0.1) 0%,
-      rgba(22, 22, 22, 0.5) 75%,
-      #161616 100%
-    ),
-    url("../img/bg-signup.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.png");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -362,7 +243,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -380,7 +261,7 @@
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -439,7 +320,7 @@
   }
   .timeline-section .timeline-text hr {
     border-color: #8c1a1a;
-    border-width: 0.25rem;
+    border-width: .25rem;
     width: 30%;
   }
 }
@@ -470,13 +351,13 @@
   }
   .sponsors-section .sponsors-text hr {
     border-color: #8c1a1a;
-    border-width: 0.25rem;
+    border-width: .25rem;
     width: 30%;
   }
 }
 
 body {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   letter-spacing: 0.0625em;
 }
 
@@ -484,8 +365,7 @@ a {
   color: #8c1a1a;
 }
 
-a:focus,
-a:hover {
+a:focus, a:hover {
   text-decoration: none;
   color: #360a0a;
 }
@@ -504,9 +384,4 @@ a:hover {
 
 footer {
   padding: 5rem 0;
-}
-
-.sponsor {
-  display: block;
-  margin: 0 auto 0 auto;
 }
