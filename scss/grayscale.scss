@@ -1,17 +1,19 @@
-@import 'variables.scss';
-@import 'mixins.scss';
-@import 'navbar.scss';
-@import 'masthead.scss';
-@import 'buttons.scss';
-@import 'about.scss';
-@import 'events.scss';
-@import 'signup.scss';
-@import 'contact.scss';
-@import 'timeline.scss';
-@import 'sponsors.scss';
+@import "variables.scss";
+@import "mixins.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "buttons.scss";
+@import "about.scss";
+@import "events.scss";
+@import "signup.scss";
+@import "contact.scss";
+@import "timeline.scss";
+@import "sponsors.scss";
+@import "join.scss";
+@import "line.scss";
 
 body {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   letter-spacing: 0.0625em;
 }
 

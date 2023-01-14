@@ -27,6 +27,9 @@
 
     <!-- Custom styles for this template -->
     <link href="css/grayscale.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS For Animations -->
+    <link href="css/animate.css" rel="stylesheet" />
   </head>
 
   <body id="page-top">
@@ -92,7 +95,7 @@
             >
               <path
                 id="left_x5F_brack_1_"
-                fill="#B51800"
+                fill="#ffffff"
                 d="M277.848,288.267c4.981,4.977,9.734,9.725,14.499,14.486
 	c-29.008,29.007-58.143,58.142-87.398,87.398c29.146,29.146,58.004,58.003,86.732,86.73c-4.929,4.93-9.713,9.714-14.576,14.578
 	c-0.35-0.329-0.837-0.764-1.298-1.225c-32.373-32.368-64.744-64.738-97.115-97.108c-2.402-2.402-2.369-3.483,0.142-5.691
@@ -101,7 +104,7 @@
               />
               <path
                 id="right_x5F_brack"
-                fill="#B51800"
+                fill="#ffffff"
                 d="M990.921,491.37c-4.66-4.657-9.365-9.358-14.12-14.109
 	c28.844-28.841,57.783-57.778,86.662-86.653c-29.318-29.318-58.567-58.566-87.804-87.803c4.98-4.974,9.649-9.636,14.468-14.449
 	c0.974,0.846,2.047,1.672,2.997,2.621c32.068,32.047,64.124,64.105,96.182,96.162c2.51,2.51,2.507,3.504-0.016,6.027
@@ -186,17 +189,22 @@
               </g>
             </svg>
           </div>
-          <h1 id="main_title" class="mx-auto my-0">Compete McGill_</h1>
+          <h1 id="main_title" class="mx-auto my-0"></h1>
+          <div id="horizontal_line"></div>
           <h2 id="main_desc" class="text-white-70 mx-auto mt-2 mb-5">
             McGill's Representative Competitive Programming Club.
           </h2>
-          <a
-            id="get_started"
-            href="https://discord.gg/JhZQWPW"
-            target="_blank"
-            class="btn btn-primary js-scroll-trigger"
-            >Join Our Discord Server</a
-          >
+          <div class="join_us d-flex justify-content-center">
+            <a href="https://discord.gg/JhZQWPW" class="mx-2">
+              <i class="fab fa-discord"></i>
+            </a>
+            <a href="https://www.facebook.com/CompeteMcGill/" class="mx-2">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://github.com/competemcgill" class="mx-2">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
         </div>
       </div>
     </header>
@@ -222,7 +230,7 @@
     </section>
 
     <!-- Events Section -->
-    <section id="events" class="events-section bg-light">
+    <section id="events" class="events-section">
       <div class="container">
         <!-- Featured event Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
@@ -652,5 +660,9 @@
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
     <script src="js/text.min.js"></script>
+    <script src="js/animations.js"></script>
+    <script>
+      typeWrite(document.getElementById("main_title"), "Compete McGill", 50);
+    </script>
   </body>
 </html>
