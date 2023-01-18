@@ -1,4 +1,4 @@
-const carousel = document.getElementById("sponsor-crsl");
+const carousel = document.getElementById("sponsor_crsl");
 const prevButton = document.getElementById("prev-button");
 const nextButton = document.getElementById("next-button");
 
@@ -7,6 +7,7 @@ const images = carousel.children;
 const imagesCount = images.length;
 
 prevButton.addEventListener("click", () => {
+  console.log(images, imagesCount);
   if (currentIndex === 0) {
     currentIndex = imagesCount - 1;
   } else {
