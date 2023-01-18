@@ -1,0 +1,17 @@
+#main_title::after {
+  content: "|";
+  animation: cursor 3s infinite;
+  animation-fill-mode: forwards;
+}
+
+/* @keyframes cursor {
+  0% {
+    opacity: "0%";
+  }
+  50% {
+    opacity: "100%";
+  }
+  100% {
+    opacity: "0%";
+  }
+} */

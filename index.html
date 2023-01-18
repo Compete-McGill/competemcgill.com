@@ -27,6 +27,12 @@
 
     <!-- Custom styles for this template -->
     <link href="css/grayscale.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS For Animations -->
+    <link href="css/animate.css" rel="stylesheet" />
+
+    <!-- Animations CSS for Animate On Sroll API
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" /> -->
   </head>
 
   <body id="page-top">
@@ -61,6 +67,9 @@
                 >Sponsors</a
               >
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="./team.html">Team</a>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
             </li>
@@ -89,7 +98,7 @@
             >
               <path
                 id="left_x5F_brack_1_"
-                fill="#B51800"
+                fill="#ffffff"
                 d="M277.848,288.267c4.981,4.977,9.734,9.725,14.499,14.486
 	c-29.008,29.007-58.143,58.142-87.398,87.398c29.146,29.146,58.004,58.003,86.732,86.73c-4.929,4.93-9.713,9.714-14.576,14.578
 	c-0.35-0.329-0.837-0.764-1.298-1.225c-32.373-32.368-64.744-64.738-97.115-97.108c-2.402-2.402-2.369-3.483,0.142-5.691
@@ -98,7 +107,7 @@
               />
               <path
                 id="right_x5F_brack"
-                fill="#B51800"
+                fill="#ffffff"
                 d="M990.921,491.37c-4.66-4.657-9.365-9.358-14.12-14.109
 	c28.844-28.841,57.783-57.778,86.662-86.653c-29.318-29.318-58.567-58.566-87.804-87.803c4.98-4.974,9.649-9.636,14.468-14.449
 	c0.974,0.846,2.047,1.672,2.997,2.621c32.068,32.047,64.124,64.105,96.182,96.162c2.51,2.51,2.507,3.504-0.016,6.027
@@ -183,17 +192,22 @@
               </g>
             </svg>
           </div>
-          <h1 id="main_title" class="mx-auto my-0">Compete McGill_</h1>
+          <h1 id="main_title" class="mx-auto my-0"></h1>
+          <div id="horizontal_line"></div>
           <h2 id="main_desc" class="text-white-70 mx-auto mt-2 mb-5">
             McGill's Representative Competitive Programming Club.
           </h2>
-          <a
-            id="get_started"
-            href="https://discord.gg/JhZQWPW"
-            target="_blank"
-            class="btn btn-primary js-scroll-trigger"
-            >Join Our Discord Server</a
-          >
+          <div class="join_us d-flex justify-content-center">
+            <a href="https://discord.gg/JhZQWPW" class="mx-2">
+              <i class="fab fa-discord"></i>
+            </a>
+            <a href="https://www.facebook.com/CompeteMcGill/" class="mx-2">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://github.com/competemcgill" class="mx-2">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
         </div>
       </div>
     </header>
@@ -203,8 +217,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-white mb-4">Break Your Limits.</h2>
-            <p class="text-white-50">
+            <h2 class="aos text-white mb-4">Break Your Limits.</h2>
+            <p class="aos text-white-50">
               Compete McGill (a.k.a Competitive Programming at McGill) is
               devoted to helping students push their limits in Computer Science
               and Software Engineering. While we <em>do</em> send teams to
@@ -219,7 +233,7 @@
     </section>
 
     <!-- Events Section -->
-    <section id="events" class="events-section bg-light">
+    <section id="events" class="events-section">
       <div class="container">
         <!-- Featured event Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
@@ -228,8 +242,8 @@
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
-              <h4>Here for everyone.</h4>
-              <p class="text-black-50 mb-0">
+              <h4 class="aos text-white-50">Here for everyone.</h4>
+              <p class="aos text-white-50 mb-0">
                 At Compete McGill, one of our primary goals is to build a
                 <strong>community</strong> we have events for <em>all</em> skill
                 levels - so come join the family!
@@ -247,8 +261,8 @@
             <div class="bg-black text-center h-100 event">
               <div class="d-flex h-100">
                 <div class="event-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Data Structures and Algorithms</h4>
-                  <p class="mb-0 text-white-50">
+                  <h4 class="aos text-white">Data Structures and Algorithms</h4>
+                  <p class="aos mb-0 text-white-50">
                     We organize lots of events, year-round (including the
                     Summer) to train your Data Structure and Algorithm Skills,
                     both so that you can compete <em>and</em> for your future
@@ -281,8 +295,8 @@
             <div class="bg-black text-center h-100 event">
               <div class="d-flex h-100">
                 <div class="event-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">Technical Skills</h4>
-                  <p class="mb-0 text-white-50">
+                  <h4 class="aos text-white">Technical Skills</h4>
+                  <p class="aos mb-0 text-white-50">
                     We also help you train your technical skills. From Software
                     Engineering to Functional Programming to Security, you'll
                     get a lot of practice that you can apply to your personal
@@ -314,10 +328,10 @@
             <div class="bg-black text-center h-100 event">
               <div class="d-flex h-100">
                 <div class="event-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">
+                  <h4 class="aos text-white">
                     Interview Workshops and Mock Interviews
                   </h4>
-                  <p class="mb-0 text-white-50">
+                  <p class="aos mb-0 text-white-50">
                     Competitive Programming is fun, but you also need to get a
                     job! We organize lots of workshops and mock interview
                     sessions to give you a helping hand in getting that
@@ -338,7 +352,7 @@
     </section>
 
     <!-- Timeline -->
-    <section id="timeline" class="timeline-section bg-light">
+    <section id="timeline" class="timeline-section">
       <div class="container">
         <!-- Timeline Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
@@ -387,7 +401,7 @@
     </section>
 
     <!-- Timeline -->
-    <section id="sponsors" class="sponsors-section bg-light">
+    <section id="sponsors" class="sponsors-section">
       <div class="container">
         <!-- Timeline Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
@@ -445,12 +459,12 @@
     </section>
 
     <!-- Sponsors -->
-    <section id="our-sponsors" class="sponsors-section bg-light">
+    <section id="our-sponsors" class="sponsors-section">
       <div class="container">
         <!-- Sponsors Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-12">
-            <div class="bg-light text-center h-100 event">
+            <div class="text-center h-100 event">
               <div class="d-flex h-100">
                 <div
                   class="sponsors-text w-100 my-auto text-center text-lg-left"
@@ -458,13 +472,35 @@
                   <div class="text-center">
                     <h1
                       style="text-align: center; padding: 0px 0px 10px"
-                      class="text-black font-weight-bold"
+                      class="text-white font-weight-bold"
                     >
                       Our Sponsors
                     </h1>
                     <br />
                     <br />
-                    <a
+                    <!-- <button id="prev-button"><</button>
+                    <button id="next-button">></button> -->
+                    <div id="sponsor_crsl" class="sponsor_crsl">
+                      <div class="image-container">
+                        <img src="img/interac.svg" alt="Image 1" />
+                      </div>
+                      <div class="image-container">
+                        <img src="img/coveo.png" alt="Image 2" />
+                      </div>
+                      <div class="image-container">
+                        <img src="img/cae.png" alt="Image 3" />
+                      </div>
+                      <div class="image-container">
+                        <img src="img/jetbrains.png" alt="Image 4" />
+                      </div>
+                      <div class="image-container">
+                        <img src="img/amazon.webp" alt="Image 5" />
+                      </div>
+                      <div class="image-container">
+                        <img src="img/google.png" alt="Image 5" />
+                      </div>
+                    </div>
+                    <!-- <a
                       href="https://www.interac.ca/en/"
                       style="
                         width: 20%;
@@ -526,7 +562,7 @@
                         style="width: 18%; margin: 2%; margin: 5 auto 5 auto"
                         src="img/amazon.webp"
                       />
-                    </a>
+                    </a> -->
                     <br />
                     <br />
                   </div>
@@ -649,5 +685,12 @@
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
     <script src="js/text.min.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/aos.js"></script>
+    <!-- <script type="module" src="js/aos.js"></script> -->
+    <!-- <script src="js/sponsor_crsl.js"></script> -->
+    <script>
+      typeWrite(document.getElementById("main_title"), "Compete McGill", 50);
+    </script>
   </body>
 </html>

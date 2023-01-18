@@ -1,22 +1,23 @@
 .sponsors-section {
+  background-color: black;
   padding: 0 0 5rem;
-  .featured-text {
-    padding: 2rem;
-    @media (min-width: 992px) {
-      padding: 0 0 0 2rem;
-      border-left: 0.5rem solid $primary;
-    }
-  }
-  .sponsors-text {
-    padding: 3rem;
-    font-size: 90%;
-    @media (min-width: 992px) {
-      padding: 4rem;
-      hr {
-        border-color: $primary;
-        border-width: .25rem;
-        width: 30%;
-      }
-    }
-  }
+  // .featured-text {
+  //   padding: 2rem;
+  //   @media (min-width: 992px) {
+  //     padding: 0 0 0 2rem;
+  //     border-left: 0.5rem solid $primary;
+  //   }
+  // }
+  // .sponsors-text {
+  //   padding: 3rem;
+  //   font-size: 90%;
+  //   @media (min-width: 992px) {
+  //     padding: 4rem;
+  //     hr {
+  //       border-color: $primary;
+  //       border-width: 0.25rem;
+  //       width: 30%;
+  //     }
+  //   }
+  // }
 }
