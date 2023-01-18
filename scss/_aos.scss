@@ -1,0 +1,12 @@
+.aos {
+  /* Initial styles for the div */
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1.3s ease-in-out;
+}
+
+.animation {
+  /* Animation styles for the div */
+  opacity: 1;
+  transform: translateY(0);
+}
