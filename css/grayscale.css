@@ -179,13 +179,11 @@
   background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #161616), to(black));
   background: linear-gradient(to bottom, #161616 10%, black);
 }
-.about-section p {
-  margin-bottom: 13rem;
-}
 
 .events-section {
   background-color: rgb(0, 0, 0);
   padding: 10rem 0 5rem;
+  color: white;
 }
 .events-section .featured-text {
   padding: 2rem;
@@ -395,6 +393,16 @@ img {
   opacity: 1;
   -webkit-transform: translateY(0);
   transform: translateY(0);
+}
+
+.faq-section {
+  background-color: black;
+  padding: 0 0 5rem;
+}
+
+.recruitment-section {
+  background-color: black;
+  padding-top: 10rem;
 }
 
 body {
